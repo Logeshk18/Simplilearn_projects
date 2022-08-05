@@ -19,37 +19,37 @@ public class Calculator {
 	        switch(i)
 	        {
 	        case 1:
-	        {
+	        
 	        	System.out.println(" Enter two numbers for Addition operation ");
 	        	x=sc.nextDouble();
 	        	y=sc.nextDouble();
 	        	System.out.println("Ans = " + (x+y));
 	        	break;
-	        }
+	        
 	        case 2:
-	        {
+	        
 	        	System.out.println(" Enter two numbers for Subtraction operation ");
 	        	x=sc.nextDouble();
 	        	y=sc.nextDouble();
 	        	System.out.println("Ans = " + (x-y));
 	        	break;
-	        }
+	        
 	        case 3:
-	        {
+	        
 	        	System.out.println(" Enter two numbers for Multiplication operation ");
 	        	x=sc.nextDouble();
 	        	y=sc.nextDouble();
 	        	System.out.println("Ans = " + (x*y));
 	        	break;
-	        }
+	        
 	        case 4:
-	        {
+	        
 	        	System.out.println("Enter two numbers for Division operation");
 	        	x=sc.nextDouble();
 	        	y=sc.nextDouble();
 	        	System.out.println("Ans = " + (x/y));
 	        	break;
-	        }
+	        
 	        }
 	        System.out.println("Confirm 1 to continue (or) Press 0 to exit operation");
 	        s=sc.nextInt();

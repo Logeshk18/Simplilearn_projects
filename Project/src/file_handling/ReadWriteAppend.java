@@ -45,7 +45,7 @@ public class ReadWriteAppend {
 	        	BufferedOutputStream Bos=new BufferedOutputStream(Fos,1024);
 	        	
 		        char c;
-	    	    while((c=(char) Dis.read()) !='/')
+	    	    while((c= (char)Dis.read()) !='/')
 		        {
 			        Bos.write(c);
 		        }

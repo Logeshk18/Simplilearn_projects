@@ -15,6 +15,7 @@ public class checkEmail {
 	        	if(Mail.equalsIgnoreCase(Email[i]))
 	        	{
 	        		b=true;
+	        		break;
 	        	}
 	        }
 	        if(b==true)

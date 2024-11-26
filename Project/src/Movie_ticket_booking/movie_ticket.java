@@ -1,4 +1,4 @@
-package Movie_ticket_booking;
+package Movie_ticket-booking;
 
 import java.util.*;
 
